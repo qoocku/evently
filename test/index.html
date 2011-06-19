@@ -43,6 +43,11 @@
       $$('#test-yehuda-data-attribs').foo = 'bar';
       equals($$('#test-yehuda-data-attribs').foo, 'bar');
     });
+
+    test("set/get localStorage", function() {
+      $$().set('a', 1);
+      equals($$().get('a'), 1);
+    });
     
     module("evently") 
     
