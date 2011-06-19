@@ -88,7 +88,7 @@
       stop();
       $("#async-handler").evently({
         _init : {
-          async : function(cb) { 
+          async : function(cb) {
             setTimeout(function() {
               cb(msg);
               start();
