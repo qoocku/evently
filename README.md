@@ -1,9 +1,4 @@
-# Evently
-## Making your jQuery apps DRYer since 2010
-
-There is extensive documentation about [Evently on the CouchApp wiki.](http://couchapp.org/page/evently)
-
-There is [a screencast here.](http://www.youtube.com/watch?v=Xk5gaUURdJI)
+# Evently fork providing CoffeeScript direct support in client code without pre-compilation to JS
 
 Apache 2.0 License
 
